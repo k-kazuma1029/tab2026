@@ -32907,8 +32907,8 @@ return s-(B.d.aO(Math.abs(B.e.gD(a.a)),3)-1)-a.u},
 n1(a){var s,r=B.ql.h(0,a.T)
 if(r==null)r=B.lS
 s=A.bkc(a,null)
-if(s<r[0])return B.VD
-if(s<r[1])return B.VE
+if(s<r[0])return B.VE
+if(s<r[1])return B.VD
 if(s<r[2])return B.xi
 if(s<r[3])return B.lK
 return B.lJ},
@@ -33013,7 +33013,7 @@ j=m.H
 i=A.n1(m)
 h=m.f
 g=B.abL.m(0,!B.b.m(A.vi(m),h)||h==="\u304a\u307e\u304b\u305b"?A.UR(m):h)?2:1
-f=8*l*((0.5+k/100)*(0.5+j/100))*i.d*g
+f=10*l*((0.5+k/100)*(0.5+j/100))*i.d*g
 for(k=A.bFu(m),j=k.length,e=0;e<k.length;k.length===j||(0,A.k)(k),++e){d=k[e]
 i=a5.$3(q,m,d)
 A.bka(m,d,f*i)}}}}},
@@ -35099,7 +35099,7 @@ if(s){p=A.dW(a,b)
 p.fN(0,d?"\u6625\u5b63\u30ad\u30e3\u30f3\u30d7":"\u79cb\u5b63\u30ad\u30e3\u30f3\u30d7",-500)}return null},
 bC6(a,b,c,d){if(A.ar(d)===1)return B.b.m(b.CW,c.a)?2:1.3
 if(A.ar(d)===11)return B.b.m(b.cx,c.a)?2:0
-return A.ar(d)===10||A.ar(d)===12?0.5:1},
+return A.ar(d)===10||A.ar(d)===12?0.8:1},
 bC8(a){return new A.agK(a)},
 bC7(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e
 for(s=a.a,r=s.length,q=0;q<s.length;s.length===r||(0,A.k)(s),++q){p=s[q]
@@ -141677,9 +141677,9 @@ B.VC=new A.GA(2,"defunct")
 B.lI=new A.UQ(0,"forward")
 B.xh=new A.UQ(1,"reverse")
 B.lJ=new A.vj("\u8870\u9000\u671f",0.2,4,"decline")
-B.xi=new A.vj("\u5168\u76db\u671f",0.5,2,"prime")
-B.VD=new A.vj("\u80b2\u6210\u671f",1.2,0,"developing")
-B.VE=new A.vj("\u6210\u9577\u671f",1.5,1,"rising")
+B.xi=new A.vj("\u5168\u76db\u671f",0.7,2,"prime")
+B.VD=new A.vj("\u6210\u9577\u671f",1.5,1,"rising")
+B.VE=new A.vj("\u80b2\u6210\u671f",1.3,0,"developing")
 B.lK=new A.vj("\u904e\u6e21\u671f",0.4,3,"transition")
 B.jj=new A.zF(0,"push")
 B.hH=new A.zF(1,"pop")
@@ -143314,8 +143314,8 @@ B.DA=new A.b4(B.a4H,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o"
 B.a4M={A:0,B:1,C:2}
 B.a3E=new A.b4(B.a4M,["\u9ad8\u5352","\u5927\u5352","\u793e\u4f1a\u4eba\u7b49"],t.G)
 B.a52={"\u65e9\u719f":0,"\u666e\u901a":1,"\u6669\u6210":2}
-B.Y4=s([21,23,28,31],t.t)
-B.Y5=s([29,31,36,39],t.t)
+B.Y4=s([22,24,29,32],t.t)
+B.Y5=s([28,30,35,38],t.t)
 B.ql=new A.b4(B.a52,[B.Y4,B.lS,B.Y5],A.aw("b4<c,E<e>>"))
 B.qm=new A.c8([B.bS,"\u516c\u5f0f\u6226",B.rA,"\u4ea4\u6d41\u6226",B.k0,"\u30aa\u30fc\u30d7\u30f3\u6226"],A.aw("c8<l9,c>"))
 B.a4D={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
